@@ -1,0 +1,33 @@
+label {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:bold;
+    float:left;
+    width:150px;
+    position: relative;
+    top:8px;
+}
+input {
+    height:30px;
+    width:400px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+#submit {
+    float:left;
+    margin-left:150px;
+    margin-top:10px;
+}
+div {
+    margin:10px;
+}
+
+body {
+    padding:30px; 
+}
+p {
+    margin:0;
+}
+
+#messages {
+
+}

@@ -1,0 +1,36 @@
+<html> 
+    <head>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <p id="messages"></p>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="eg. yourname@gmail.com">
+        </div>
+
+        <div>
+            <p></p>
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone" id="phone" placeholder="eg. 0123456789">
+        </div>
+
+        <div>
+            <p></p>
+            <label for="pass">Password</label>
+            <input type="text" name="pass" id="pass">
+        </div>
+
+        <div>
+            <p></p>
+            <label for="pass-confirm">Confirm Password</label>
+            <input type="text" name="pass-confirm" id="pass-confirm">
+        </div>
+
+        <button id="submit">Sign Up</button>
+
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html> 
+

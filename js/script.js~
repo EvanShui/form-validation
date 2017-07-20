@@ -1,0 +1,14 @@
+var password; 
+var password_confirm;
+alert($("#pass").val());
+
+$("#submit").click(function() {
+    password = $("#pass").val();
+    password_confirm = $("#pass-confirm").val();
+    alert(password);
+    alert(password_confirm);
+})
+
+if(password != password-confirm){
+
+}
